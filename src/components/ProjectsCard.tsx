@@ -2,11 +2,11 @@ import { LuGithub, LuLink } from "react-icons/lu";
 
 const ProjectsCard = () => {
   return (
-    <div className="bg-zinc-200/50 dark:bg-slate-500 cursor-pointer p-2 rounded-md">
-      <div className="flex flex-col">
+    <div className="bg-zinc-200/50 dark:bg-zinc-900 cursor-pointer p-2 rounded-md">
+      <div className="flex flex-col item-center">
         <div className="flex items-center h-full gap-3">
           <img src="/vite.svg" className="h-14 w-14" />
-          <div className="w-[647px]">
+          <div className="w-full">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <h1 className="font-semibold lg:text-xl text-base leading-none">
