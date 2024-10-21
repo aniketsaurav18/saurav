@@ -6,9 +6,10 @@ import {
   SiPostgresql,
   SiMongodb,
   SiDocker,
+  SiExpress,
 } from "react-icons/si";
 
-type TechStackType = {
+export type TechStackType = {
   skill: string;
   icon: ReactNode;
 };
@@ -25,6 +26,10 @@ export const TechStack: TechStackType[] = [
   {
     skill: "Typescript",
     icon: React.createElement(SiTypescript, { size: 14 }),
+  },
+  {
+    skill: "Express",
+    icon: React.createElement(SiExpress, { size: 14 }),
   },
   {
     skill: "PostgreSQL",
