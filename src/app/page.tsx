@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <About />
+      <div className="text-xl">Projects</div>
       <ProjectsCard />
     </>
   );

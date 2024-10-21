@@ -2,7 +2,7 @@ import { LuGithub, LuLink } from "react-icons/lu";
 
 const ProjectsCard = () => {
   return (
-    <div className="bg-zinc-200/50 dark:bg-zinc-900 cursor-pointer p-2 rounded-md">
+    <div className="bg-zinc-200/50 dark:bg-[#1E1C1C] cursor-pointer p-3 rounded-lg">
       <div className="flex flex-col item-center">
         <div className="flex items-center h-full gap-3">
           <img src="/vite.svg" className="h-14 w-14" />
@@ -16,6 +16,14 @@ const ProjectsCard = () => {
               </div>
               <div className="flex items-center gap-3">
                 {/* {linkURL && ( */}
+                <a
+                  href="/"
+                  target="_blank"
+                  aria-label="Project Description"
+                  className="cursor-pointer"
+                >
+                  Read More
+                </a>
                 <a
                   href="/github"
                   target="_blank"
