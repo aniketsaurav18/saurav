@@ -16,7 +16,7 @@ const About = () => {
         way. Let us build something amazing together!
       </p>
       <div className="my-4">
-        <h3 className="text-[20px]">Let&#39;s Connect</h3>
+        <h1 className="font-bold text-lg">Let&#39;s Connect</h1>
         <div className="flex flex-row gap-2 text-2xl">
           <a href="https://github.com/aniketsaurav18">
             <FaGithub />

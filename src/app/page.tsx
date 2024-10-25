@@ -1,14 +1,13 @@
 import About from "@/components/About";
-import ProjectsCard from "@/components/ProjectsCard";
+import Projects from "@/components/Projects";
 import TechStackComponent from "@/components/TechStack";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <About />
       <TechStackComponent />
-      <div className="text-xl">Projects</div>
-      <ProjectsCard />
+      <Projects />
     </>
   );
 }
