@@ -7,6 +7,10 @@ import {
   SiMongodb,
   SiDocker,
   SiExpress,
+  SiCplusplus,
+  SiAmazonwebservices,
+  SiApachekafka,
+  SiRabbitmq,
 } from "react-icons/si";
 
 export type TechStackType = {
@@ -42,5 +46,21 @@ export const TechStack: TechStackType[] = [
   {
     skill: "Docker",
     icon: React.createElement(SiDocker, { size: 14 }),
+  },
+  {
+    skill: "C++",
+    icon: React.createElement(SiCplusplus, { size: 14 }),
+  },
+  {
+    skill: "AWS",
+    icon: React.createElement(SiAmazonwebservices, { size: 14 }),
+  },
+  {
+    skill: "Kafka",
+    icon: React.createElement(SiApachekafka, { size: 14 }),
+  },
+  {
+    skill: "RabbitMQ",
+    icon: React.createElement(SiRabbitmq, { size: 14 }),
   },
 ];

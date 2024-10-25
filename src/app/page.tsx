@@ -8,6 +8,6 @@ export default function Home() {
       <About />
       <TechStackComponent />
       <Projects />
-    </>
+    </div>
   );
 }

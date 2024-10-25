@@ -16,7 +16,11 @@ const ProjectsCard = ({
     <div className="bg-zinc-200/50 dark:bg-[#1E1C1C] cursor-pointer p-3 rounded-lg my-2">
       <div className="flex flex-col items-center">
         <div className="flex items-center h-full w-full gap-3 ">
-          <img src={projectLogo} className="h-14 w-14" alt={`${projectName} logo`} />
+          <img
+            src={projectLogo}
+            className="h-14 w-14"
+            alt={`${projectName} logo`}
+          />
           <div className="w-full">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
@@ -32,7 +36,7 @@ const ProjectsCard = ({
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Project Blog"
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:text-blue-600"
                   >
                     Read More
                   </a>
@@ -60,9 +64,7 @@ const ProjectsCard = ({
                 )}
               </div>
             </div>
-            <p className="lg:text-sm text-sm">
-              {projectDescription}
-            </p>
+            <p className="lg:text-sm text-sm">{projectDescription}</p>
           </div>
         </div>
         <div className="flex gap-2 text-xs mt-2 w-full flex-wrap">
