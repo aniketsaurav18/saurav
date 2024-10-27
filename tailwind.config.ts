@@ -12,8 +12,15 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      // typography: {
+      //   DEFAULT: {
+      //     css: {
+      //       maxWidth: "48rem",
+      //     },
+      //   },
+      // },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;

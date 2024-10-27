@@ -16,7 +16,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: #1c1c1c;
   font-family: Inter, Helvetica, sans-serif;
 }
 
@@ -24,4 +24,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Custom scrollbar styling */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 8px; /* Adjust height for horizontal scrollbars */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #222; /* Dark background for track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+  border: 2px solid #333;
+}
+
+.custom-scrollbar {
+  scrollbar-color: #555 #222; /* Firefox */
+  scrollbar-width: thin;
 }
