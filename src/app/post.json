@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "playground",
+      "title": "Hello World",
+      "date": "Oct 28 2024",
+      "slug": "playground"
+    },
+    {
+      "id": "post2",
+      "title": "An overview of some of the most interesting features of ECMAScript 6, the latest version of the JavaScript specification.",
+      "date": "Oct 29 2024",
+      "slug": "post2"
+    }
+  ]
+}
