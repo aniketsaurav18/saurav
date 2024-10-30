@@ -5,6 +5,7 @@ import rehypeHighlight from "rehype-highlight";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"]
 };

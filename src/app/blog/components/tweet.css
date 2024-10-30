@@ -1,5 +1,5 @@
 /* generic resets so that we inherit from the parent */
-.tweet .react-tweet-theme {
+.dark .tweet .react-tweet-theme {
   /* margin is handled by our wrappers */
   --tweet-container-margin: 0;
   --tweet-font-family: inherit;
@@ -34,7 +34,7 @@
   --tweet-verified-blue-color: var(--tweet-color-blue-primary);
 }
 
-.dark .tweet .react-tweet-theme {
+.tweet .react-tweet-theme {
   --tweet-bg-color: #222;
   --tweet-bg-color-hover: #222;
   --tweet-quoted-bg-color-hover: rgba(255, 255, 255, 0.03);
