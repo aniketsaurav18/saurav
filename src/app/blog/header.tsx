@@ -19,10 +19,10 @@ export function Header({ posts }: { posts: Post[] }) {
     return <></>;
   }
   return (
-    <div className="mt-3 mb-4 w-full">
-      <h1 className="text-2xl font-bold mb-1 dark:text-gray-100">
+    <div className="mt-3 mb-4 w-full px-2">
+      <h3 className="text-2xl font-bold mb-1 dark:text-gray-100">
         {post.title}
-      </h1>
+      </h3>
 
       <p className="font-mono flex text-xs text-gray-500 dark:text-gray-500 m-0">
         <span className="flex-grow">

@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="font-bold text-xl w-full h-10 py-6">
+    <header className="font-bold text-2xl w-full h-10 py-6">
       Saurav Sharma
     </header>
   );

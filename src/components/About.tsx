@@ -1,28 +1,42 @@
-import { FaGithub } from "react-icons/fa";
-import { FaSquareTwitter } from "react-icons/fa6";
+import { LuGithub } from "react-icons/lu";
+import { FaXTwitter } from "react-icons/fa6";
+import { LuMail } from "react-icons/lu";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const About = () => {
   return (
     <main className="flex flex-col">
-      <p>Hi </p>
-      <p>
-        Hello! I am Saurav Sharma, a software engineer passionate about creating
-        impactful solutions through code. With a solid foundation in full-stack
-        development and expertise in modern technologies, I specialize in
-        building efficient, scalable applications. Whether it is developing web
-        applications, crafting seamless user interfaces, or optimizing
-        performance, I thrive on solving complex problems. This portfolio
-        showcases my journey, projects, and the skills I have honed along the
-        way. Let us build something amazing together!
-      </p>
+      <p className="text-3xl font-bold">Hi, I am Saurav &#128075;</p>
+      <ul className="my-2 text-base font-medium space-y-1">
+        <li className="flex items-start">
+          <span className="mr-2 flex-shrink-0">📍</span>
+          <span>Ranchi, Jharkhand | India 🇮🇳</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-2 flex-shrink-0">🎓</span>
+          <span>
+            Got a degree in Biotechnology, Building web-apps for passion.
+          </span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-2 flex-shrink-0">🛠️</span>
+          <span>Mainly work on React, NodeJS, and Typescript.</span>
+        </li>
+      </ul>
       <div className="my-4">
-        <h1 className="font-bold text-lg">Let&#39;s Connect</h1>
-        <div className="flex flex-row gap-2 text-2xl">
+        <h1 className="font-bold text-xl my-2">Let&#39;s Connect</h1>
+        <div className="flex flex-row gap-4 text-2xl">
           <a href="https://github.com/aniketsaurav18">
-            <FaGithub />
+            <LuGithub size={25} />
           </a>
-          <a href="https://github.com/aniketsaurav18">
-            <FaSquareTwitter />
+          <a href="https://twitter.com/aniketsauravv">
+            <FaXTwitter size={25} />
+          </a>
+          <a href="https://linkedin.com/in/aniketsaurav">
+            <FaLinkedinIn size={25} />
+          </a>
+          <a href="/mail">
+            <LuMail size={25} />
           </a>
         </div>
       </div>

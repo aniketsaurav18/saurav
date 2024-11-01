@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="flex flex-row gap-5 my-4">
+    <nav className="flex flex-row gap-5 my-4 sticky top-0 z-50 backdrop-blur-md py-2">
       <a href="/" className="hover:underline">
         Home
       </a>

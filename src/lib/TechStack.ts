@@ -11,6 +11,7 @@ import {
   SiAmazonwebservices,
   SiApachekafka,
   SiRabbitmq,
+  SiNodedotjs,
 } from "react-icons/si";
 
 export type TechStackType = {
@@ -30,6 +31,10 @@ export const TechStack: TechStackType[] = [
   {
     skill: "Typescript",
     icon: React.createElement(SiTypescript, { size: 14 }),
+  },
+  {
+    skill: "NodeJS",
+    icon: React.createElement(SiNodedotjs, { size: 14 }),
   },
   {
     skill: "Express",
