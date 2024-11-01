@@ -13,7 +13,7 @@ const ProjectsCard = ({
   projectLogo,
 }: ProjectCardProps) => {
   return (
-    <div className="bg-zinc-200/50 dark:bg-[#1E1C1C] cursor-pointer p-3 rounded-lg my-2">
+    <div className="bg-zinc-200/50 dark:bg-[#222222] cursor-pointer p-3 rounded-lg my-2">
       <div className="flex flex-col items-center">
         <div className="flex items-center h-full w-full gap-3 ">
           <img

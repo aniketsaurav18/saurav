@@ -11,7 +11,7 @@ interface TweetArgs {
 export async function ReactTweet({ id, caption }: TweetArgs) {
   return (
     <div className="tweet my-6">
-      <div className={`flex justify-center`}>
+      <div className={`flex justify-center my-0`}>
         <Tweet id={id} fallback={<TweetSkeleton />} />
       </div>
       {caption && <Caption>{caption}</Caption>}
