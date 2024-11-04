@@ -15,7 +15,7 @@ export default function Blogs() {
       <ul>
         {postData.posts.length === 0 ? (
           <p className="text-gray-500 dark:text-gray-400">
-            I haven't written any blogs yet. Come back later!
+            I haven&apost written any blogs yet. Come back later!
           </p>
         ) : (
           postData.posts.map((post: Post) => (
