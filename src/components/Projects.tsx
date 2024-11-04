@@ -10,7 +10,7 @@ const Projects = () => {
           <ProjectsCard
             key={index}
             title={p.projectName}
-            description={[p.projectDescription]}
+            description={p.projectDescription}
             githubLink={p.projectGithubLink}
             liveLink={p.projectLiveLink}
             techStack={p.projectTech}

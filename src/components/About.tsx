@@ -10,7 +10,7 @@ const About = () => {
       <ul className="my-2 text-base font-medium space-y-1">
         <li className="flex items-start">
           <span className="mr-2 flex-shrink-0">📍</span>
-          <span>Ranchi, Jharkhand | India 🇮🇳</span>
+          <span>Jharkhand, India 🇮🇳</span>
         </li>
         <li className="flex items-start">
           <span className="mr-2 flex-shrink-0">🎓</span>
@@ -32,10 +32,10 @@ const About = () => {
           <a href="https://twitter.com/aniketsauravv">
             <FaXTwitter size={25} />
           </a>
-          <a href="https://linkedin.com/in/aniketsaurav">
+          <a href="https://www.linkedin.com/in/saurav-s-94328110a/">
             <FaLinkedinIn size={25} />
           </a>
-          <a href="/mail">
+          <a href="mailto:aniketsaurav18@gmail.com">
             <LuMail size={25} />
           </a>
         </div>

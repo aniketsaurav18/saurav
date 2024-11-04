@@ -24,9 +24,7 @@ export default function ProjectCard({
       <div className="flex flex-col gap-2">
         <div className="flex flex-row gap-2 sm:gap-6">
           <div className="w-[15%] sm:w-[10%] flex-shrink-0">
-            {" "}
-            {/* Adjusted width for small devices */}
-            <div className="relative w-full pt-[100%]">
+            <div className="relative w-full pt-[100%] bg-white">
               <img
                 src={logo}
                 alt={`${title} logo`}
@@ -36,10 +34,10 @@ export default function ProjectCard({
           </div>
 
           <div className="w-full sm:w-[90%]">
-            <h3 className="sm:text-xl text-lg font-bold text-gray-100 mb-2">
+            <h3 className="sm:text-lg text-sm font-bold text-gray-100">
               {title}
             </h3>
-            <ul className="list-disc list-inside mb-2 space-y-1">
+            <ul className="list-disc list-inside space-y-1">
               {description.map((item, index) => (
                 <li
                   key={index}
@@ -62,8 +60,8 @@ export default function ProjectCard({
             </span>
           ))}
         </div>
-        <div className="flex flex-col gap-4 w-full my-2">
-          <div className="flex flex-wrap gap-2 ">
+        <div className="flex flex-col gap-4 w-full">
+          <div className="flex flex-wrap gap-2 justify-end">
             {liveLink && (
               <a
                 href={liveLink}

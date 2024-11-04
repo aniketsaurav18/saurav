@@ -1,6 +1,6 @@
 export type Projects = {
   projectName: string;
-  projectDescription: string;
+  projectDescription: string[];
   projectLogo: string;
   projectTech: string[];
   projectGithubLink: string;
@@ -10,19 +10,11 @@ export type Projects = {
 
 export const MyProjects: Projects[] = [
   {
-    projectName: "Code Execution Engine",
-    projectDescription: "A robust code execution engine using docker.",
-    projectLogo: "/vite.svg",
-    projectTech: ["Typescript", "Docker", "React", "Express"],
-    projectGithubLink:
-      "https://github.com/aniketsaurav18/code-execution-engine",
-    projectBlogLink: "https://example.com/",
-    projectLiveLink: "https://example.com/",
-  },
-  {
     projectName: "Chess",
-    projectDescription:
+    projectDescription: [
       "An online multiplayer Chess game website with local chess engine support.",
+      "Play with Stockfish engine. Without Internet.",
+    ],
     projectLogo: "/chess-project-logo.jpg",
     projectTech: [
       "Typescript",
@@ -31,8 +23,29 @@ export const MyProjects: Projects[] = [
       "React",
       "Express",
       "PostgreSQL",
+      "kafka",
     ],
     projectGithubLink: "https://github.com/aniketsaurav18/chess",
+    projectBlogLink: "https://example.com/",
+    projectLiveLink: "https://example.com/",
+  },
+  {
+    projectName: "Code Execution Engine",
+    projectDescription: [
+      "A robust code execution engine using docker.",
+      "Supports multiple languages.",
+    ],
+    projectLogo: "/assets/code-execution-engine-logo.png",
+    projectTech: [
+      "Typescript",
+      "Docker",
+      "React",
+      "Express",
+      "RabbitMQ",
+      "Redis",
+    ],
+    projectGithubLink:
+      "https://github.com/aniketsaurav18/code-execution-engine",
     projectBlogLink: "https://example.com/",
     projectLiveLink: "https://example.com/",
   },

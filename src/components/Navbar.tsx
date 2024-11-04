@@ -13,9 +13,9 @@ const Navbar = () => {
       <a href="/blogs" className="hover:underline">
         Blogs
       </a>
-      <a href="/shelf" className="hover:underline">
+      {/* <a href="/shelf" className="hover:underline">
         Shelf
-      </a>
+      </a> */}
     </nav>
   );
 };
