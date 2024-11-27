@@ -15,7 +15,6 @@ export default function Home() {
             liveLink={p.projectLiveLink}
             techStack={p.projectTech}
             blogLink={p.projectBlogLink}
-            logo={p.projectLogo}
           />
         ))}
       </div>

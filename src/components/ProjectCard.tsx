@@ -1,7 +1,6 @@
-import { ExternalLink, Github, BookOpen, Globe } from "lucide-react";
+import { Github, BookOpen, Globe } from "lucide-react";
 
 interface ProjectCardProps {
-  logo: string;
   title: string;
   description: string[];
   techStack: string[];
@@ -57,7 +56,6 @@ const ExternalLinkIcon = ({
 };
 
 export const ProjectCard2 = ({
-  logo,
   title,
   description,
   techStack,
