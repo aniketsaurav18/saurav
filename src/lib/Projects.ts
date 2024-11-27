@@ -26,8 +26,7 @@ export const MyProjects: Projects[] = [
       "kafka",
     ],
     projectGithubLink: "https://github.com/aniketsaurav18/chess",
-    projectLiveLink: "https://chess.aniketsaurav.com",
-    projectBlogLink: "https://aniketsaurav.com/blog/chess",
+    projectLiveLink: "https://chess.sauravs.me",
   },
   {
     projectName: "Code Execution Engine",
@@ -46,7 +45,5 @@ export const MyProjects: Projects[] = [
     ],
     projectGithubLink:
       "https://github.com/aniketsaurav18/code-execution-engine",
-    projectLiveLink: "https://chess.aniketsaurav.com",
-    projectBlogLink: "https://aniketsaurav.com/blog/chess",
   },
 ];
