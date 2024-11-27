@@ -83,7 +83,7 @@ export const ProjectCard2 = ({
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <div className="flex flex-wrap gap-1 mb-2">
+        <div className="flex flex-wrap gap-1 sm:mb-0 mb-2">
           {techStack.map((tech, index) => (
             <span
               key={index}
