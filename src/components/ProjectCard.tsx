@@ -25,7 +25,7 @@ const ExternalLinkIcon = ({
           href={liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center text-sm px-2 py-1 h-6 border border-gray-300 text-gray-900 hover:bg-gray-200 dark:border-gray-500 dark:text-gray-300 dark:hover:bg-zinc-700 rounded-sm transition-all"
+          className="flex items-center text-sm px-2 py-1 h-6 border border-gray-300 text-gray-900 hover:bg-gray-200 dark:border-gray-500 dark:text-gray-200 dark:hover:bg-zinc-700 rounded-sm transition-all"
         >
           <Globe className="h-3 w-3 mr-1" />
           Live
@@ -36,7 +36,7 @@ const ExternalLinkIcon = ({
           href={blogLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center text-sm px-2 py-1 h-6 border border-gray-300 text-gray-900 hover:bg-gray-200 dark:border-gray-500 dark:text-gray-300 dark:hover:bg-zinc-700 rounded-sm transition-all"
+          className="flex items-center text-sm px-2 py-1 h-6 border border-gray-300 text-gray-900 hover:bg-gray-200 dark:border-gray-500 dark:text-gray-200 dark:hover:bg-zinc-700 rounded-sm transition-all"
         >
           <BookOpen className="h-3 w-3 mr-1" />
           Blog
@@ -46,7 +46,7 @@ const ExternalLinkIcon = ({
         href={githubLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center text-sm px-2 py-1 h-6 border border-gray-300 text-gray-900 hover:bg-gray-200 dark:border-gray-500 dark:text-gray-300 dark:hover:bg-zinc-700 rounded-sm transition-all"
+        className="flex items-center text-sm px-2 py-1 h-6 border border-gray-300 text-gray-900 hover:bg-gray-200 dark:border-gray-500 dark:text-gray-200 dark:hover:bg-zinc-700 rounded-sm transition-all"
       >
         <Github className="h-3 w-3 mr-1" />
         Code
@@ -78,16 +78,16 @@ export const ProjectCard2 = ({
             />
           </div>
         </div>
-        <ul className="space-y-1 text-sm text-gray-700 dark:text-gray-300 list-disc list-inside mb-4">
+        <ul className="space-y-1 text-sm text-gray-700 dark:text-gray-200 list-disc list-inside sm:mb-4 mb-2">
           {description.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-1 mb-2">
           {techStack.map((tech, index) => (
             <span
               key={index}
-              className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-600 transition-colors"
+              className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-600 transition-colors"
             >
               {tech}
             </span>
