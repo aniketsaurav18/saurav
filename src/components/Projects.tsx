@@ -1,13 +1,15 @@
 import { MyProjects } from "@/lib/Projects";
-import ProjectsCard from "./ProjectCard";
+import { ProjectCard2 } from "./ProjectCard";
 
 const Projects = () => {
   return (
     <div className="w-full my-8 flex flex-col gap-2">
-      <h1 className="font-bold text-xl">My Projects 👨🏼‍💻</h1>
+      <h1 className="font-bold text-xl dark:text-white text-gray-900">
+        My Projects 👨🏼‍💻
+      </h1>
       <div className="flex flex-col gap-2">
         {MyProjects.map((p, index) => (
-          <ProjectsCard
+          <ProjectCard2
             key={index}
             title={p.projectName}
             description={p.projectDescription}

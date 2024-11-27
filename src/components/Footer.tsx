@@ -14,7 +14,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="my-4 text-white sm:text-base text-sm ">
+    <footer className="my-4 text-gray-800 dark:text-gray-300 sm:text-base text-sm">
       <div className="flex justify-between">
         {dateTime ? (
           <p>
